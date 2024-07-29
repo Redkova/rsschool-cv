@@ -1,4 +1,4 @@
-! [photo] {https://postimg.cc/sBpxhXxn}
+! [photo] (https://postimg.cc/sBpxhXxn)
 # Alexandra Redkova
 ## Contacts
 * **Phone** +46 72 44-55-909
