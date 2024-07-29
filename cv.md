@@ -1,4 +1,3 @@
-![sky and cat] (https://www.shutterstock.com/image-vector/dotted-spiral-vortex-royaltyfree-images-600w-2227567913.jpg)
 # Alexandra Redkova
 ## Contacts
 * **Phone** +46 72 44-55-909
