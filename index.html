@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="header">
         <nav class="nav">
             <ul class="nav-list">
                 <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
@@ -35,14 +35,13 @@
     </div>
     </div>
     </div>
+    <hr class="line">
         <div class="textcols">
             <div class="textcols-item">
         <h2 class="selection underline" id="contacts">Contacts</h2>
-        <ul>
-            <li><strong>Email:</strong> sandraredkova@gmail.com</li>
-            <li><strong>Phone:</strong> +46 72 44-55-909</li>
-            <li><strong>GitHub:</strong> Redkova</li>
-        </ul>
+            <span><strong>Email:</strong> sandraredkova@gmail.com</span>
+            <span><strong>Phone:</strong> +46 72 44-55-909</span>
+            <span><strong>GitHub:</strong> Redkova</span>
         <h2 class="section underline" id="languages">Languages</h2>
         <ul>
             <li>Russian - native</li>
@@ -57,11 +56,10 @@
             <li>JavaScript</li>
         </ul>
         <h2 class="section underline" id="code">Code example</h2>
-        <p>function multiply(a, b)
-            {
+        <pre>function multiply(a, b) {
             return a * b
             }
-        </p>
+        </pre>
     </div>
     <div class="textcols-item">
         <h2 class="section underline" id="about">About me</h2>
@@ -85,7 +83,13 @@
     </div>
     </div>
     </main>
-
-    <footer><div class="container">Footer</div></footer>
+    <footer class="footer">
+            <div class="nav-footer">
+                    <span>&copy; 2024 <a href="https://github.com/redkova"> GitHub</a></span>
+                <span><a href="https://rs.school/courses/javascript-ru">
+                    <img src="rs-school-logo.svg" alt="logo" width="80" height="90">
+                </a></span>
+                </div>
+     </footer>
 </body>
 </html>
