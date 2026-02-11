@@ -61,7 +61,6 @@ body {
 
 .contacts-item {
     margin-bottom: 10px;
-
 }
 
 .contacts-link {
@@ -82,8 +81,56 @@ body {
     opacity: 0.5;
   }
 .socials-icons {
-  width: 22px;
-  flex-shrink: 0;
+    width: 22px;
+    flex-shrink: 0;
+}
+
+.languages {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+  
+.languages h2 {
+    opacity: 0.9;
+}
+  
+.languages ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+  
+.languages li {
+    margin-bottom: 10px;
+}
+
+.education h2 {
+    opacity: 0.9;
+}
+  
+.education-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.education-item {
+    margin-bottom: 18px;
+}
+  
+.education-university{
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.education-degree {
+    font-size: 16px;
+    margin: 0;
+}
+  
+.education-years {
+    font-size: 14px;
+    font-style: italic;
 }
 
 .content {
