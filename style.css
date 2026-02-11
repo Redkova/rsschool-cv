@@ -36,6 +36,18 @@ body {
     border-radius: 12px;
   }
 
+  .profile h1 {
+    font-size: 25px;
+  }
+  
+  .profile h2 {
+    font-weight: normal;
+    font-size: 18px;
+    opacity: 0.9;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+  }
+
   .content {
     padding: 0 40px 0;
     background: #fff;
