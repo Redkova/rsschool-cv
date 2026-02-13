@@ -286,15 +286,16 @@ body {
     margin-bottom: 30px;
   }
   
-  .certificate-item {
+.certificate-item {
     display: flex;
     align-items: center;
     gap: 10px;
     color: #000000;
     transition: opacity 0.2s ease;
-  }
+}
 
 .footer {
+    width: 100%;
     text-align: center;
     font-size: 14px;
     color: #888;
@@ -303,6 +304,7 @@ body {
 .footer-wrapper {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
     gap: 10px;
     }
@@ -312,4 +314,59 @@ body {
     flex-shrink: 0;
 }
 
+@media (max-width: 900px) {
+    body {
+      align-items: flex-start;
+    }
+
+    .cv-page {
+        grid-template-columns: 1fr;
+        width: 100%;
+        min-height: auto;
+        border: none;
+        box-shadow: none;
+    }
+    
+    .sidebar {
+        text-align: center;
+      }
+    
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background: #ffffff;
+    }
+
+    .content h2 {
+        text-align: center;
+    }
+      
+    .job {
+        display: inline-grid;
+        grid-template-columns: 1fr;
+    }
+
+    .skills {
+        text-align: center;
+    }
+      
+    .skills-list {
+        display: inline-grid;
+        grid-template-columns: 1fr;
+        gap: 6px;
+    }
+
+    .code-example pre {
+        font-size: 12px;
+        white-space: pre-wrap;
+        word-break: break-word;
+    }
+}
+  
 
