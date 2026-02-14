@@ -323,6 +323,7 @@ body {
     body {
       /* align-items: flex-start; */
       padding-top: 50px;
+      background: #ffffff;
     }
 
     .header {
@@ -396,13 +397,10 @@ body {
         flex-direction: column;
         align-items: center;
     }
+
 }
 
 @media (max-width: 480px) {
-    body {
-        background: #ffffff;
-    }
-
     .content h2 {
         text-align: center;
     }
