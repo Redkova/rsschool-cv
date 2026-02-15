@@ -27,7 +27,6 @@ body {
 .navigation-list {
     display: flex;
     justify-content: right;
-    align-items: left;
     gap: 15px;
     list-style: none;
     padding: 0 20px;
@@ -85,11 +84,11 @@ body {
     border-radius: 12px;
 }
 
-.profile h1 {
+.name {
     font-size: 25px;
 }
   
-.profile h2 {
+.title {
     font-weight: normal;
     font-size: 18px;
     opacity: 0.9;
@@ -128,7 +127,7 @@ body {
 
 .contacts-link:active {
     opacity: 0.5;
-  }
+}
 
 .socials-icons {
     width: 22px;
@@ -304,6 +303,7 @@ body {
     text-align: center;
     font-size: 14px;
     color: #888;
+    padding: 10px 0;
 }
 
 .footer-wrapper {
